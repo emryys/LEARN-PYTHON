@@ -1,0 +1,18 @@
+pip help //manual page for pip
+pip help install //manual page (options) for install
+pip search Pympler //search for this package
+pip install Pympler
+pip list //all packages we have currently installed
+pip uninstall Pympler //removes the package from the environment
+
+pip list --outdated 
+        or          //look at the currnet version and latest version of the packages
+pip list -o
+
+pip install -U setuptools //uppercase U for upgrade and packagne name to be updated
+pip freeze //outputs all packages and version numbers in correct format to be installed from others
+pip freeze > requirements.txt //a txt is created in the same folder which contains all packages and versions
+pip install -r requirements.txt //install all packages in the requirements.txt file
+
+
+
